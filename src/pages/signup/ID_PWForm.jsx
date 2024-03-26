@@ -38,7 +38,7 @@ const IdPwForm = ({ updateForms, next, isLastStep }) => {
                     type={"password"}
                     register={register}
                     registerKey="password"
-                    size="medium"
+                    size="large"
                     color="lemon"
                     errors={errors}
                 />

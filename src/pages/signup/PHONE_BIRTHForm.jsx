@@ -13,7 +13,6 @@ const PhoneBirthForm = ({ next, prev, isLastStep }) => {
 
     const {
         register,
-        handleSubmit,
         formState: { errors },
     } = useForm({ mode: "onChange", resolver: yupResolver(phoneNumSchema) });
 
